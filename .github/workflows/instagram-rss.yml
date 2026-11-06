@@ -14,7 +14,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   refresh:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 15
     steps:
       - name: Checkout
@@ -27,10 +27,7 @@ jobs:
         run: python -m pip install -r instagram-rss/requirements.txt
       - name: Install Chromium browser
         run: python -m playwright install --with-deps chromium
-      - name: Collect public posts and optional authenticated stories
-        env:
-          INSTAGRAM_USERNAME: ${{ secrets.INSTAGRAM_USERNAME }}
-          INSTAGRAM_SESSION_BASE64: ${{ secrets.INSTAGRAM_SESSION_BASE64 }}
+      - name: Collect public posts only
         run: python instagram-rss/collect.py
       - name: Collect through rendered Chromium pages
         run: python instagram-rss/browser_collect.py
