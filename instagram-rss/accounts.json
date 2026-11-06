@@ -1,0 +1,6 @@
+{
+  "accounts": ["onda_mx", "galeriaalentar"],
+  "posts_per_account": 8,
+  "reels_per_account": 5,
+  "max_stories_per_account": 20
+}
