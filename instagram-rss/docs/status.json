@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-11-06T19:53:30.861087+00:00",
+  "last_checked_utc": "2026-11-07T00:10:28.320357+00:00",
   "received_new_this_check": 0,
   "total_items_in_rss": 0,
   "session_configured": false,
@@ -8,7 +8,7 @@
     "galeriaalentar"
   ],
   "errors": [
-    "@onda_mx posts: JSON Query to api/v1/users/web_profile_info/: 429 Too Many Requests when accessing https://www.instagram.com/api/v1/users/web_profile_info/?username=onda_mx",
+    "@onda_mx posts: 302 Found when accessing https://www.instagram.com/onda_mx/",
     "@galeriaalentar posts: 302 Found when accessing https://www.instagram.com/galeriaalentar/",
     "Stories require an authorized Instagram session; no session is configured."
   ],
