@@ -1,21 +1,21 @@
 {
-  "checked_utc": "2026-11-11T06:49:41.863366+00:00",
+  "checked_utc": "2026-11-11T22:53:33.521007+00:00",
   "engine": "chromium/playwright",
   "accounts": {
     "onda_mx": {
       "url": "https://www.instagram.com/onda_mx/",
       "items": 0,
-      "http_status": 429,
+      "http_status": 200,
       "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fonda_mx%2F&is_from_rle",
-      "page_title": "",
+      "page_title": "Instagram",
       "error": "No visible public post links in Chromium DOM (login wall, block, or empty profile)"
     },
     "galeriaalentar": {
       "url": "https://www.instagram.com/galeriaalentar/",
       "items": 0,
-      "http_status": 429,
+      "http_status": 200,
       "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fgaleriaalentar%2F&is_from_rle",
-      "page_title": "",
+      "page_title": "Instagram",
       "error": "No visible public post links in Chromium DOM (login wall, block, or empty profile)"
     }
   },
